@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.afelipe.android.departamentosutim"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono_ab"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="mx.afelipe.android.departamentosutim.activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mx.afelipe.android.departamentosutim.activities.DetailsActivity"
+            android:label="@string/title_main" >
+        </activity>
+        <activity
+            android:name="mx.afelipe.android.departamentosutim.activities.DepartamentoNewActivity"
+            android:label="@string/title_main" >
+        </activity>
+        <activity
+            android:name="mx.afelipe.android.departamentosutim.activities.DepartamentoEditActivity"
+            android:label="@string/title_main" >
+        </activity>
+        <activity
+            android:name="mx.afelipe.android.departamentosutim.activities.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Departamentos</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_main">Deptos</string>
+    <string name="item_add">Agregar</string>
+    <string name="item_edit">Editar</string>
+    <string name="item_delete">Eliminar</string>
+    <string name="search">Buscar</string>
+    <string name="search_result">Resultados de búsqueda</string>
+    <string name="about">Acerca de</string>
+    <string name="confirmation_delete_msg">¿Confirma eliminar el departamento?</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="no_action">No</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="item_save">Guardar</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="more_options">Más opciones</string>
+
+</resources>
